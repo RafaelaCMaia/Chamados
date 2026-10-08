@@ -1,2 +1,2 @@
 # Chamados
-Sistema de Chamados desenvolvido em Java com Spring Boot - Univille
+Sistema de Chamados desenvolvido em Java com Spring Boot

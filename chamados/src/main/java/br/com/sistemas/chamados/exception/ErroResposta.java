@@ -1,11 +1,11 @@
+
 package br.com.sistemas.chamados.exception;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 public record ErroResposta(
-    LocalDateTime momento,
+    LocalDateTime timestamp,
     int status,
-    string erro,
-    List<string> detalhes
-){}
+    String erro,
+    String mensagem
+) {}
